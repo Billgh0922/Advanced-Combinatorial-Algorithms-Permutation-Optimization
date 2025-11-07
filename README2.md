@@ -1,5 +1,5 @@
 # Combinatorial Algorithms (Spring 2025)
-## Assignment 2 (v1.4)
+## Assignment 2
 
 **Authors:**  
 - Hao Guo
