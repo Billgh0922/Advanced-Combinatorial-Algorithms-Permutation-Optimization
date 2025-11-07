@@ -1,11 +1,9 @@
-# Combinatorial-Algorithms-Assignment-1
-
-# 104291 - Combinatorial Algorithms (Spring 2025)
-## Assignment 1 (v1.1)
+# Combinatorial Algorithms (Spring 2025)
+## Assignment 1
 
 **Authors:**  
-- Hao Guo (999014913)  
-- Zirui Fang (999014574)
+- Hao Guo 
+- Zirui Fang 
 
 **Date:** April 2025  
 **Course:** Combinatorial Algorithms  
@@ -33,7 +31,64 @@ This program reads an undirected graph from standard input and outputs all **set
 If no paw exists, it reports accordingly.
 
 ### Input Format
+n m
+v1 w1
+v2 w2
+...
+vm wm
+- `n`: number of vertices  
+- `m`: number of edges  
+- `vi wi`: edges between vertices (0-indexed)
 
+### Output
+- A list of vertex sets (each set as a list) forming induced paws, in lexicographic order.  
+- If none found, prints: It found no paws in the graph.
+
+### Example 1 (from assignment)
+**Input**
+7 10
+1 2
+1 3
+2 3
+3 4
+2 4
+0 1
+0 4
+6 4
+5 3
+2 6
+**Output**
+[0,1,2,3]
+[0,2,3,4]
+[0,2,4,6]
+[1,2,3,5]
+[1,2,3,6]
+[1,2,4,6]
+[2,3,4,5]
+
+### Example 2 (no paws)
+**Input**
+6 12
+0 1
+0 3
+1 3
+2 1
+2 4
+4 1
+5 3
+5 4
+3 4
+0 2
+0 5
+2 5
+**Output**
+It found no paws in the graph.
+### How It Works
+1. Builds an **adjacency list** of the graph.  
+2. Iterates over all **4-combinations of vertices** (without using `itertools`).  
+3. For each combination:
+   - Counts total edges between these 4 vertices.
+   - Checks if they form a triangle + one pendant vertex.
 
 ISSUES TO BE FIXED:
 
