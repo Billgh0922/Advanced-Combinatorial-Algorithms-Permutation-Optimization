@@ -25,3 +25,24 @@ Developed as part of 104291 Combinatorial Algorithms at GTIIT, demonstrating mas
 - Network motif detection in bioinformatics
 - Scheduling problems with precedence constraints
 - Combinatorial optimization in operations research
+
+## References & Academic Foundation
+
+This implementation is academically grounded in established computer science literature:
+
+### Primary Sources
+
+**[1] Kreher, D. L., & Stinson, D. R.** *Combinatorial Algorithms: Generation, Enumeration, and Search*
+- Foundation for Trotter-Johnson ordering and ranking algorithms
+- Permutation generation techniques
+- Lexicographic ordering principles
+
+**[2] Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C.** *Introduction to Algorithms*
+- Graph traversal and search algorithms
+- Algorithmic complexity analysis framework
+- Induced subgraph detection approaches
+
+### Implementation Notes
+- Exercise 1: Induced paw detection extends basic graph algorithms [2] with specialized isomorphism checks
+- Exercise 2: Constrained permutation ranking implements Trotter-Johnson scheme [1] with precedence constraint integration
+- All algorithmic adaptations and optimizations are documented in respective source files
