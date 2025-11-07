@@ -248,14 +248,9 @@ Efficient for large sparse graphs.
 
 ## ⚙️ Usage
 
-### Run Exercise 1a
+### Run Exercise
 ```bash
 python3 assignment_1_1.py
 python3 assignment_1_2.py
 python3 assignment_2_1.py
 python3 assignment_2_2.py
-
-
-
-
-
