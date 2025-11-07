@@ -2,12 +2,12 @@
 ## Assignment 2
 
 **Authors:**  
-- Hao Guo
-- Zirui Fang
+- Hao Guo 
+- Zirui Fang 
 
 **Date:** June 2025  
 **Course:** Combinatorial Algorithms  
-**Instructor:** Prof. Pablo Ezequiel Terlisky
+**Instructor:** Prof. Pablo Ezequiel Terlisky  
 ---
 
 ## 📘 Overview
